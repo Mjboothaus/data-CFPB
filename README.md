@@ -1,4 +1,9 @@
-# nbdev template
+# CFPB Data Pipeline
 
-Use this template to more easily create your nbdev project.
+Template:
+- Built on top of the `nbdev` template.
 
+Using:
+- Data source: CFPB complaints data
+- Data expectations: Great Expectations
+- Data base: SQLite (or possibly MySQL or Postgres SQL)
