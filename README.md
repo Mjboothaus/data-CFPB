@@ -19,4 +19,18 @@ See here for details: https://raw.githubusercontent.com/cfpb/ccdb5-api/main/swag
 
 ### CSV
 
+Convert the file to SQLite database
+
 `csv-to-sqlite -v -t full -f complaints.csv -o cfpb_complaints.db`
+
+## Great Expectations
+
+Uses SQL Alchemy
+
+Which database backend are you using?
+    1. MySQL
+    2. Postgres
+    3. Redshift
+    4. Snowflake
+    5. BigQuery
+    6. other - Do you have a working SQLAlchemy connection string?
