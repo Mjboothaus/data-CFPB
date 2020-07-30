@@ -15,3 +15,8 @@ Using:
 - API: https://cfpb.github.io/api/ccdb/api.html 
 Endpoint: https://www.consumerfinance.gov/data-research/consumer-complaints/search/api/v1/
 See here for details: https://raw.githubusercontent.com/cfpb/ccdb5-api/main/swagger-config.yaml
+
+
+### CSV
+
+`csv-to-sqlite -v -t full -f complaints.csv -o cfpb_complaints.db`
