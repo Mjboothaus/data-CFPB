@@ -12,5 +12,4 @@ venv dev_deploy:
 	python3 -m pip install --upgrade pip
 	pip install -r requirements-{{dev_deploy}}.txt
 	python -m ipykernel install --user --name .venv_{{dev_deploy}}_data-cfpb
-	pip install -U prefect
 	echo -e '\n' source .venv_{{dev_deploy}}_data-cfpb/bin/activate '\n'
